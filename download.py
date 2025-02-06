@@ -14,7 +14,7 @@ print ("你输入的内容是: ", input1)
 input2 = input("请输入类型：")
 print ("你输入的内容是: ", input2)
 
-file = open("number.txt", "r")  # 打开文件
+file = open("filename.txt", "r")  # 打开文件
 number = file.read()  # 读取文件中的内容
 file.close()  # 关闭文件
 number2 = number.split(' ')
